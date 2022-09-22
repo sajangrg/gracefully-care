@@ -13,8 +13,8 @@
     <div class="row">
       <div class="col-md-6">
         <div class="banner-content">
-          <h1 class="mb-3">Supporting you to live the life you want</h1>
-          <a href="#" class="btn btn-primary text-white py-2 px-3">The latest COVID-19 information</a>
+          <h1 class="mb-4">Supporting you to live the life you want</h1>
+          <a href="#" class="btn btn-primary text-white py-3 px-4 fw-bold">The latest COVID-19 information</a>
         </div>
       </div>
     </div>
@@ -122,8 +122,8 @@
             <a href="#">
               <div class="thumbnail">
                 <div class="mask">
-                    <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                    <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/Regional-Disability-Expo.jpg');">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/Regional-Disability-Expo.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -152,8 +152,8 @@
             <a href="#">
               <div class="thumbnail">
                 <div class="mask">
-                    <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
-                    <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                    <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/Web_Header_Banner_2000x1000px-2.png');">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/Web_Header_Banner_2000x1000px-2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -195,8 +195,8 @@
           <a href="#">
             <div class="thumbnail">
               <div class="mask">
-                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/blog3.jpg');">
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/blog3.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -225,8 +225,8 @@
           <a href="#">
             <div class="thumbnail">
               <div class="mask">
-                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/blog-img3.jpg');">
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/blog-img3.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -255,8 +255,8 @@
           <a href="#">
             <div class="thumbnail">
               <div class="mask">
-                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
-                  <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                  <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg');">
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -292,7 +292,7 @@
 <div class="section home-get-started py-5">
   <div class="container pb-5">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6 offset-md-3">
         <div class="common-heading text-center mb-5">
           <h1>Get Started</h1>
           <p>If you would like more information about booking a Support Star, or would like to register for work with us, please get in touch!</p>
@@ -313,7 +313,7 @@
       <div class="col-md-6">
         <div class="get-started-block text-center">
           <div class="get-started-image">
-            <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="Thumbnail" class="img-fluid">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/join-our-team-alliance-community.jpg" alt="Thumbnail" class="img-fluid">
           </div>
           <div class="get-started-info">
             <h1>Join our team</h1>
