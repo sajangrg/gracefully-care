@@ -395,4 +395,39 @@
   background-position: 50% 100%;
   background-repeat: no-repeat;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.home-get-started {
+  position: relative;
+}
+
+.home-get-started:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: #fbefeb;
+}
+
+.get-started-block .get-started-info h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: center;
+}
+
+.get-started-block .get-started-image {
+  position: relative;
+  height: 368px;
+  margin-bottom: 15px;
+}
+
+.get-started-block .get-started-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */

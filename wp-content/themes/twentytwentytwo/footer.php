@@ -73,6 +73,8 @@
   </footer>
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php bloginfo('template_directory');?>/assets/js/jquery-3.6.1.min.js"></script>
+  <script src="<?php bloginfo('template_directory');?>/assets/js/custom.js"></script>
   <script>
   </script>
 </body>

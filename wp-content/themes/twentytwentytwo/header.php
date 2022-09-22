@@ -38,10 +38,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/styles.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/main.css">
 </head>
 <body>
-  <header class="main-header wc-primary-nav">
+  <header class="main-header wc-primary-nav fixed-nav">
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
