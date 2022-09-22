@@ -20,20 +20,106 @@
     </div>
   </div>
   <div class="ratio ratio-16x9 banner-videos">
-    <iframe src="https://player.vimeo.com/video/39346172?h=cb47d00ad8&autoplay=1&title=0&byline=0&portrait=0&muted=1&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/229681278?h=cb47d00ad8&autoplay=1&title=0&byline=0&portrait=0&muted=1&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 <div class="services py-5 text-center">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8 offset-md-2">
         <div class="common-heading">
           <h1>Our Services</h1>
           <p>Are you looking for disability support or aged care for you or a loved one? As a registered NDIS provider we deliver quality services, from a helping hand with daily living to around-the-clock, high needs support. Our clinical roots enable us to provide the highest standards of support. All our Support Stars are vetted in person and matched to your specific needs. In 2020 we won an award for our commitment to safety, so you and your loved ones can rest assured the services you receive are the best in the industry and are tailored specifically to you.</p>
         </div>
       </div>
     </div>
+    <div class="row home-services justify-content-center mt-5">
+      <div class="col-6 col-sm-3">
+        <a href="/en/services/aged-care">
+          <div class="icon">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-tree.svg" alt="Aged Care" class="default">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-tree-hover.svg" alt="Aged Care" class="hover">
+          </div>
+          <h4>Aged Care</h4>
+        </a>
+      </div><div class="col-6 col-sm-3">
+        <a href="/en/services/disability-support">
+          <div class="icon">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-hands.svg" alt="Disability Support" class="default">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-hands-hover.svg" alt="Disability Support" class="hover">
+          </div>
+          <h4>Disability Support</h4>
+        </a>
+      </div><div class="col-6 col-sm-3">
+        <a href="/en/services/high-level-support">
+          <div class="icon">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/high-level-support-small.png" alt="High Level Support" class="default">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/high-level-support-hover_small.png" alt="High Level Support" class="hover">
+          </div>
+          <h4>High Level Support</h4>
+        </a>
+      </div>
+    </div>
   </div>
 </div>
-
+<div class="section home-support py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="offset-lg-1 col-lg-6">
+        <img src="<?php bloginfo('template_directory');?>/assets/images/img-home-2.jpg" alt="Alliance Community Support Star Staff in Action" class="img-fluid">
+      </div>
+      <div class="col-lg-6 col-xl-5">
+        <div class="section-header header-article">
+          <div id="support-pro-content" class="common-heading">
+            <strong class="font-title">Support Star</strong>
+            <h1>Become a Support Star!</h1>
+            <p>Do you have the right qualities? Become a Support Star with Alliance Community to make a difference in your community.</p>
+          </div>                            
+          <a href="#" class="btn btn-primary text-white">Become a Support Star</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section home-events-news py-5">
+   <div class="container">
+      <div class="common-heading text-center">
+        <h1>Register for Events</h1>
+      </div>
+      <div class="row list-cards justify-content-center">
+        <div class="col-lg-4">
+          <div class="item">
+            <a href="#">
+              <div class="thumbnail">
+                <div class="mask">
+                    <div class="img" style="background-image:url('<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg');">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div class="card-text">
+              <a href="#">
+                <h4 class="card-title">Support Worker Open Day - Sydney</h4>
+              </a>
+              <dl class="card-info">
+                <dt><i class="fas fa-map-marker-alt"></i></dt>
+                <dd>107 Juliet Street...</dd>
+                <dt><i class="far fa-calendar-alt"></i></dt>
+                <dd>6 Oct 2022</dd>
+              </dl>
+              <p>Are you interested in starting a career as a care professional or already have industry...</p>
+            </div>
+            <a href="#" class="btn-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <p>
+        <a class="row justify-content-center align-section-links text-center" href="#">
+          <span>View Local Events</span>
+        </a>
+      </p>
+      <hr class="events-news-spacing">
+  </div>
+</div>
 <?php get_footer();?>
