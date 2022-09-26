@@ -38,6 +38,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/owlcarousel/owl.theme.default.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/venobox/venobox.min.css"/>
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/main.css">
 </head>
 <body>

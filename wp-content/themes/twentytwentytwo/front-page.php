@@ -8,7 +8,7 @@
  * @package gracefully_care
  */
   get_header(); ?>
-<div class="home-banner">
+<section class="home-banner">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -20,10 +20,10 @@
     </div>
   </div>
   <div class="ratio ratio-16x9 banner-videos">
-    <iframe src="https://player.vimeo.com/video/229681278?h=cb47d00ad8&autoplay=1&title=0&byline=0&portrait=0&muted=1&loop=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/229681278?h=cb47d00ad8&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   </div>
-</div>
-<div class="services py-5 text-center">
+</section>
+<section class="services py-5 text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
@@ -61,8 +61,62 @@
       </div>
     </div>
   </div>
-</div>
-<div class="section home-support py-5">
+</section>
+<section class="section home-stories py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12">
+        <div class="owl-carousel stories-carousel">
+          <div class="item">
+            <div class="row align-items-center story-block d-flex w-100">
+              <div class="col-lg-6">
+                <div class="stories-content-wrapper">
+                  <span>Stores #1</span>
+                  <a href="#" class="story-heading">
+                    <h1>Chloe &amp; Catherine</h1>
+                  </a>
+                  <p>Chloe and Catherine are the perfect match! After a skiing accident in 2017, Chloe was left paralysed. Catherine has been there through the ups and the downs of Chloe’s journey, supporting her with her daily routine, household cleaning and as a new found friend.</p>
+                  <a href="#" class="btn btn-primary text-white">Watch</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="video-thumbnail-stories-wrapper">
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/Nurse_and_client_smiling_together_banner_large.jpg" alt="High Level Support" class="img-fluid">
+                  <a href="javascript:void(0)" data-href="https://vimeo.com/539344382" class="venobox video-icon" data-autoplay="true" data-vbtype="video">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/icons/play-icon.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row align-items-center story-block d-flex w-100">
+              <div class="col-lg-6">
+                <div class="stories-content-wrapper">
+                  <span>Stores #2</span>
+                  <a href="#" class="story-heading">
+                    <h1>Chloe &amp; Catherine</h1>
+                  </a>
+                  <p>Chloe and Catherine are the perfect match! After a skiing accident in 2017, Chloe was left paralysed. Catherine has been there through the ups and the downs of Chloe’s journey, supporting her with her daily routine, household cleaning and as a new found friend.</p>
+                  <a href="#" class="btn btn-primary text-white">Watch</a>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="video-thumbnail-stories-wrapper">
+                  <img src="<?php bloginfo('template_directory');?>/assets/images/Nurse_and_client_smiling_together_banner_large.jpg" alt="High Level Support" class="img-fluid">
+                  <a href="javascript:void(0)" data-href="https://vimeo.com/539344382" class="venobox video-icon" data-autoplay="true" data-vbtype="video">
+                    <img src="<?php bloginfo('template_directory');?>/assets/images/icons/play-icon.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section home-support py-5">
   <div class="container">
     <div class="row align-items-center">
       <div class="offset-lg-1 col-lg-6">
@@ -80,8 +134,8 @@
       </div>
     </div>
   </div>
-</div>
-<div class="section home-events-news py-5">
+</section>
+<section class="section home-events-news py-5">
    <div class="container pb-5">
       <div class="common-heading text-center">
         <h1>Register for Events</h1>
@@ -287,9 +341,9 @@
       </a>
     </div>
   </div>
-</div>
+</section>
 <!-- GET STARTED -->
-<div class="section home-get-started py-5">
+<section class="section home-get-started py-5">
   <div class="container pb-5">
     <div class="row">
       <div class="col-md-6 offset-md-3">
@@ -324,5 +378,5 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 <?php get_footer();?>

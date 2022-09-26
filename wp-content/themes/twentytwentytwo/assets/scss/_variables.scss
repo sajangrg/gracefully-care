@@ -3,6 +3,16 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+// Prefix for :root CSS variables
+
+// $variable-prefix:             bs- !default;
+
+// $dynamic-var-colors: (
+//   "dark-gray": #404652,
+//   "clay-color": #ffcca8,
+//   "primary-blue-color": #007dc2
+// ) !default;
+
 // Color system
 
 // scss-docs-start gray-color-variables
