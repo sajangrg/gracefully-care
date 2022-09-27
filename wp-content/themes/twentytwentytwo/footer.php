@@ -76,6 +76,7 @@
   <script src="<?php bloginfo('template_directory');?>/assets/js/jquery-3.6.1.min.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/owlcarousel/owl.carousel.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/venobox/venobox.min.js"></script>
+  <script src="<?php bloginfo('template_directory');?>/assets/js/unillax-min.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/js/custom.js"></script>
   <script>
   </script>
