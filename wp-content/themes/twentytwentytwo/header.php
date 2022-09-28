@@ -68,10 +68,10 @@
               <a class="nav-link" href="<?php echo home_url('support-star'); ?>">Support Star</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Stories</a>
+              <a class="nav-link" href="<?php echo home_url('stories'); ?>">Stories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="<?php echo home_url('about'); ?>">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
