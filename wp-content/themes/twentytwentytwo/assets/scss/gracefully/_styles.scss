@@ -130,6 +130,15 @@
   .font-title{
     color: #aaaaaa;
   }
+  &.left-aligned-heading{
+    text-align: left;
+    h1{
+      &:after{
+        right: inherit;
+        content: '';
+      }
+    }
+  }
 }
 
 // Services

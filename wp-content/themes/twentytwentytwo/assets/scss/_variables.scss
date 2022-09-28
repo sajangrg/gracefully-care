@@ -1267,7 +1267,7 @@ $card-group-margin:                 $grid-gutter-width * .5 !default;
 
 // scss-docs-start accordion-variables
 $accordion-padding-y:                     1rem !default;
-$accordion-padding-x:                     1.25rem !default;
+$accordion-padding-x:                     0 !default;
 $accordion-color:                         var(--#{$prefix}body-color) !default;
 $accordion-bg:                            $body-bg !default;
 $accordion-border-width:                  $border-width !default;

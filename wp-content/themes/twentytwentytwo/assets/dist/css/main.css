@@ -166,6 +166,15 @@
   color: #aaaaaa;
 }
 
+.common-heading.left-aligned-heading {
+  text-align: left;
+}
+
+.common-heading.left-aligned-heading h1:after {
+  right: inherit;
+  content: '';
+}
+
 .home-services a {
   color: #4a4a4a;
   text-decoration: none;

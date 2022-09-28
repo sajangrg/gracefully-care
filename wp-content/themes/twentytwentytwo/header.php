@@ -47,7 +47,7 @@
   <header class="main-header wc-primary-nav fixed-nav">
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?php echo home_url('/'); ?>">
           <img src="<?php bloginfo('template_directory');?>/assets/images/primary-logo.jpg" class="img-fluid" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,14 +58,14 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" aria-current="page" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Aged Care</a></li>
-                <li><a class="dropdown-item" href="#">Disability Support</a></li>
-                <li><a class="dropdown-item" href="#">High Level Support</a></li>
-                <li><a class="dropdown-item" href="#">Schedule a Support Consultation</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('aged-care'); ?>">Aged Care</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('aged-care'); ?>">Disability Support</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('aged-care'); ?>">High Level Support</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('aged-care'); ?>">Schedule a Support Consultation</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Support Star</a>
+              <a class="nav-link" href="<?php echo home_url('support-star'); ?>">Support Star</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Stories</a>
