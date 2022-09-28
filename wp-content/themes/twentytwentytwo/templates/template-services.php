@@ -10,8 +10,8 @@ get_header(); ?>
           <h1>Aged Care</h1>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">Services</a></li>
+              <li class="breadcrumb-item"><a href="<?php echo home_url('/'); ?>">Home</a></li>
+              <li class="breadcrumb-item"><a href="<?php echo home_url('aged-care'); ?>">Services</a></li>
               <li class="breadcrumb-item active" aria-current="page">Aged Care</li>
             </ol>
           </nav>
@@ -58,7 +58,7 @@ get_header(); ?>
     </div>
     <div class="row home-services justify-content-center mt-5">
       <div class="col-6 col-sm-3">
-        <a href="/en/services/aged-care">
+        <a href="#">
           <div class="icon">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-tree.svg" alt="Aged Care" class="default">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-tree-hover.svg" alt="Aged Care" class="hover">
@@ -67,7 +67,7 @@ get_header(); ?>
           <p>Supporting you with daily tasks such as bathing, dressing, meal time assistance and more.</p>
         </a>
       </div><div class="col-6 col-sm-3">
-        <a href="/en/services/disability-support">
+        <a href="#">
           <div class="icon">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-hands.svg" alt="Disability Support" class="default">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-hands-hover.svg" alt="Disability Support" class="hover">
@@ -76,7 +76,7 @@ get_header(); ?>
           <p>Supporting you with daily tasks such as bathing, dressing, meal time assistance and more.</p>
         </a>
       </div><div class="col-6 col-sm-3">
-        <a href="/en/services/high-level-support">
+        <a href="#">
           <div class="icon">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/high-level-support-small.png" alt="High Level Support" class="default">
             <img src="<?php bloginfo('template_directory');?>/assets/images/icons/high-level-support-hover_small.png" alt="High Level Support" class="hover">
