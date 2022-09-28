@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: Stories Template */ 
+/* Template Name: Our People Template */ 
 get_header(); ?>
 <section class="common-inner-heading">
   <img src="<?php bloginfo('template_directory');?>/assets/images/lady-making-bed.png" class="img-fluid" alt="Inner Banner Image"/>
@@ -7,11 +7,11 @@ get_header(); ?>
     <div class="row align-items-center justify-content-center">
       <div class="col-md-12">
         <div class="header-content">
-          <h1>Stories</h1>
+          <h1>Our People</h1>
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Stories</li>
+              <li class="breadcrumb-item active" aria-current="page">Our People</li>
             </ol>
           </nav>
         </div>

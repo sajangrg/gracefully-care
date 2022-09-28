@@ -35,7 +35,7 @@ get_header(); ?>
 <section class="mb-5">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 mb-5">
+      <div class="col-lg-12">
         <div class="form-floating mb-3">
           <input type="text" class="form-control" id="enquiry-type" placeholder="enquiry">
           <label for="enquiry-type">Enquiry Type</label>
