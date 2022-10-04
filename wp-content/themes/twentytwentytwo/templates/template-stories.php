@@ -90,4 +90,41 @@ get_header(); ?>
     </div>
   </div>
 </section>
+<!-- GET STARTED -->
+<section class="section home-get-started py-5">
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="common-heading text-center mb-5">
+          <h1>Get Started</h1>
+          <p>If you would like more information about booking a Support Star, or would like to register for work with us, please get in touch!</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="get-started-block text-center">
+          <div class="get-started-image">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="Thumbnail" class="img-fluid">
+          </div>
+          <div class="get-started-info">
+            <h1>Book a Support Star</h1>
+            <p>If you would like more information about booking a Support Star, let’s have a chat about your needs.</p>
+          </div>
+          <a href="#" class="btn btn-primary text-white px-4 py-2">Find out more</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="get-started-block text-center">
+          <div class="get-started-image">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/join-our-team-alliance-community.jpg" alt="Thumbnail" class="img-fluid">
+          </div>
+          <div class="get-started-info">
+            <h1>Join our team</h1>
+            <p>Have you got what it takes? Become a Support Star with Alliance Community to make a difference in your community.</p>
+          </div>
+          <a href="#" class="btn btn-secondary px-4 py-2">Become a Support Star</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <?php get_footer();?>
