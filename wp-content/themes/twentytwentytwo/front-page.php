@@ -128,7 +128,7 @@
             <strong class="font-title">Support Star</strong>
             <h1>Become a Support Star!</h1>
             <p>Do you have the right qualities? Become a Support Star with Alliance Community to make a difference in your community.</p>
-          </div>                            
+          </div>
           <a href="#" class="btn btn-primary text-white">Become a Support Star</a>
         </div>
       </div>
