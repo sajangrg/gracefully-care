@@ -70,11 +70,19 @@
             <li class="nav-item">
               <a class="nav-link" href="<?php echo home_url('stories'); ?>">Stories</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url('about'); ?>">About</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?php echo home_url('about'); ?>">About us</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('our-people'); ?>">Our People</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?php echo home_url('contact-us'); ?>">Contact</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="<?php echo home_url('contact-us'); ?>">Contact us</a></li>
+                <li><a class="dropdown-item" href="<?php echo home_url('feedback-compliments-and-complaints/'); ?>">Feedback, Compliments and Complaints</a></li>
+              </ul>
             </li>
           </ul>
         </div>
