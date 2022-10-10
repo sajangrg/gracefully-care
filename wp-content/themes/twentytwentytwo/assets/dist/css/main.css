@@ -175,6 +175,12 @@
   content: '';
 }
 
+.common-heading.readmore-title h1 {
+  position: relative;
+  margin: 0 0 45px;
+  font-size: 30px;
+}
+
 .home-services a {
   color: #4a4a4a;
   text-decoration: none;

@@ -38,6 +38,70 @@ get_header(); ?>
     </div>
   </div>
 </section>
+<section class="section py-5">
+  <div class="container pb-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="common-heading left-aligned-heading readmore-title">
+          <h1>More Stories</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="story-inline-wrapper d-block mb-5">
+          <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-inline-img">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/andrina-donna-image.png" alt="" class="img-fluid">
+            <i class="bi bi-play-circle"></i>
+          </a>
+          <div class="story-inline-content">
+            <div class="stories-content-wrapper ps-3">
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-heading">
+                <h1>Emily &amp; Ivana</h1>
+              </a>
+              <p>Emily and Ivana have known each other for five years. They met shortly after Emily came home from...</p>
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="btn btn-secondary px-4">See The Watch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="story-inline-wrapper d-block mb-5">
+          <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-inline-img">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/img-home-1.jpg" alt="" class="img-fluid">
+            <i class="bi bi-play-circle"></i>
+          </a>
+          <div class="story-inline-content">
+            <div class="stories-content-wrapper ps-3">
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-heading">
+                <h1>Andrina and Donna</h1>
+              </a>
+              <p>Andrina and Donna love singing songs together in the car and the two are always having a blast!  ...</p>
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="btn btn-secondary px-4">See The Watch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="story-inline-wrapper d-block mb-5">
+          <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-inline-img">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/tom-and-ian-video.png" alt="" class="img-fluid">
+            <i class="bi bi-play-circle"></i>
+          </a>
+          <div class="story-inline-content">
+            <div class="stories-content-wrapper ps-3">
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="story-heading">
+                <h1>Tom & Ian</h1>
+              </a>
+              <p>Tom and Ian have known each other for nearly two years and have formed a close friendship. Whethe...</p>
+              <a href="<?php echo home_url('stories/chloe-catherine/'); ?>" class="btn btn-secondary px-4">See The Watch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- GET STARTED -->
 <section class="section home-get-started py-5">
   <div class="container pb-5">
