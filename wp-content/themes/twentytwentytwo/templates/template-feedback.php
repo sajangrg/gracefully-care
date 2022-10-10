@@ -38,14 +38,25 @@ get_header(); ?>
     <div class="row">
       <div class="col-lg-12">
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="enquiry-type" placeholder="enquiry">
-          <label for="enquiry-type">Enquiry Type</label>
+          <select class="form-select" id="floatingSelect-feedbacktype" aria-label="Floating label select">
+            <option selected>Please select</option>
+            <option value="1">General Feedback</option>
+            <option value="2">Compliment</option>
+            <option value="3">Complaint</option>
+          </select>
+          <label for="floatingSelect">Type of feedback</label>
         </div>
       </div>
-      <div class="col-lg-12 mb-4">
-        <div class="form-floating">
-          <input type="text" class="form-control" id="location" placeholder="Location">
-          <label for="location">Location</label>
+      <div class="col-lg-12">
+        <div class="form-floating mb-3">
+          <select class="form-select" id="floatingSelect-feedbacktype" aria-label="Floating label select">
+            <option selected>Please select</option>
+            <option value="1">I am an Alliance Community client</option>
+            <option value="2">I am an Alliance Community support worker</option>
+            <option value="3">I am a friend/relative/carer of a client</option>
+            <option value="4">Others</option>
+          </select>
+          <label for="floatingSelect">About you</label>
         </div>
       </div>
       <div class="col-lg-6 mb-4">
@@ -68,8 +79,28 @@ get_header(); ?>
       </div>
       <div class="col-lg-12 mb-4">
         <div class="form-floating">
+          <input type="text" class="form-control" id="contact-number" placeholder="Contact number">
+          <label for="contact-number">Contact number</label>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="form-floating">
+          <input type="text" class="form-control" id="postalcode" placeholder="Postal Code">
+          <label for="postalcode">Postcode</label>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
           <label for="message">Message</label>
+        </div>
+      </div>
+      <div class="col-lg-12 mb-4">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            I agree to the Privacy Policy.
+          </label>
         </div>
       </div>
       <div class="offset-4 col-lg-4 mb-4">
