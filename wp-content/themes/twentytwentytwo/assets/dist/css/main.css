@@ -646,6 +646,87 @@
   font-size: 28px;
 }
 
+.avatar.avatar-ex-large {
+  height: 200px;
+  width: 200px;
+}
+
+.team.team-primary .btn {
+  background-color: #007dc2;
+  border-color: #007dc2;
+  -webkit-box-shadow: 0 3px 5px 0 rgba(42, 82, 195, 0.1);
+          box-shadow: 0 3px 5px 0 rgba(42, 82, 195, 0.1);
+}
+
+.team.team-primary .btn.btn-pills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 30px;
+}
+
+.team img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.team .team-social {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -50px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.team .team-social .list-inline-item {
+  margin: 0 1px 10px;
+}
+
+.team .fea.icon-sm {
+  width: 14px;
+  height: 14px;
+  color: #fff;
+}
+
+.team:hover .team-image .team-social {
+  bottom: 16px;
+}
+
+.card .card-img {
+  position: relative;
+}
+
+.card .card-img .card-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(25%, transparent), color-stop(35%, transparent), to(rgba(22, 28, 45, 0.9)));
+  background: linear-gradient(to bottom, transparent 0%, transparent 25%, transparent 35%, rgba(22, 28, 45, 0.9) 100%);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card:hover .card-img .card-overlay {
+  opacity: 1;
+}
+
 .site-footer {
   background-color: #22252D;
   padding-top: 5.625rem;
