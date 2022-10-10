@@ -53,6 +53,10 @@
 }
 
 .card {
+  &.team-primary{
+    padding: 15px;
+    background: linear-gradient(360deg, #f2f2f2, #fff);
+  }
   .card-img{
     position: relative;
     .card-overlay {
@@ -73,4 +77,11 @@
       }
     }
   } 
+}
+
+// Single Team Member
+.team-single {
+  .team-image {
+    height: 550px;
+  }
 }
