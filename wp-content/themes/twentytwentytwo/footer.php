@@ -49,7 +49,7 @@
             <p class="text-white">We offer respect and acknowledgement to Indigenous Peoples of Australia as the first inhabitants of this land. We offer our acknowledgement to their traditional and ongoing roles as custodians of Land and culture. We offer our respect to their Elders past, present and emerging.</p>
           </div>
           <div class="bottom-left">
-            <span>©  <?php echo $curr_year = date('Y'); ?> Alliance Community.</span>
+            <span>&copy;  <?php echo $curr_year = date('Y'); ?> Alliance Community.</span>
             <a href="<?php echo home_url('website-accessibility/'); ?>">Website Accessibility</a>
             <a href="<?php echo home_url('privacy-policy/'); ?>">Privacy Policy</a>
             <a href="<?php echo home_url('platform-access/'); ?>">Platform Access</a>
