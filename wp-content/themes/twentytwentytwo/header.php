@@ -90,10 +90,10 @@
           <div class="large-buttons">
             <ul>
               <li>
-                <a href="#" class="btn btn-secondary">Schedule a Support Consultation</a>
+                <a href="<?php echo home_url('become-a-support-star/'); ?>" class="btn btn-secondary">Schedule a Support Consultation</a>
               </li>
               <li>
-                <a href="#"  class="btn btn-primary text-white">Become a Support Star</a>
+                <a href="<?php echo home_url('become-a-support-star/'); ?>"  class="btn btn-primary text-white">Become a Support Star</a>
               </li>
             </ul>
           </div>

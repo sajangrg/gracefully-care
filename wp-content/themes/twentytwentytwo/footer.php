@@ -77,8 +77,8 @@
   <script src="<?php bloginfo('template_directory');?>/assets/owlcarousel/owl.carousel.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/venobox/venobox.min.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/js/unillax-min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.js"></script>
   <script src="<?php bloginfo('template_directory');?>/assets/js/custom.js"></script>
-  <script>
-  </script>
 </body>
 </html>
