@@ -29,16 +29,16 @@
               <nav class="footer-nav" role="navigation">
                 <ul id="menuElem">
                     <li>
-                      <a href="#">About</a>
+                      <a href="<?php echo home_url('about/'); ?>">About</a>
                     </li>
                     <li>
-                      <a href="#">Contact</a>
+                      <a href="<?php echo home_url('contact-us/'); ?>">Contact</a>
                     </li>
                     <li>
-                      <a href="#">News &amp; Media</a>
+                      <a href="<?php echo home_url('news-and-media/'); ?>">News &amp; Media</a>
                     </li>
                     <li>
-                      <a href="#">Events</a>
+                      <a href="<?php echo home_url('news-and-media/'); ?>">Events</a>
                     </li>
                 </ul>
               </nav>
@@ -49,10 +49,10 @@
             <p class="text-white">We offer respect and acknowledgement to Indigenous Peoples of Australia as the first inhabitants of this land. We offer our acknowledgement to their traditional and ongoing roles as custodians of Land and culture. We offer our respect to their Elders past, present and emerging.</p>
           </div>
           <div class="bottom-left">
-            <span>© 2022 Alliance Community.</span>
-            <a href="#">Website Accessibility</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Platform Access</a>
+            <span>©  <?php echo $curr_year = date('Y'); ?> Alliance Community.</span>
+            <a href="<?php echo home_url('website-accessibility/'); ?>">Website Accessibility</a>
+            <a href="<?php echo home_url('privacy-policy/'); ?>">Privacy Policy</a>
+            <a href="<?php echo home_url('platform-access/'); ?>">Platform Access</a>
             <a href="#" title="Explanation of WCAG 2.0 Level Triple-A Conformance" aria-label="Explanation of WCAG 2.0 Level Triple-A Conformance">
               <img src="https://www.w3.org/WAI/wcag2AAA" height="32" width="88" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0">
             </a>
