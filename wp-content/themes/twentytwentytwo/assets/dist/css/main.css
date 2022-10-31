@@ -1555,4 +1555,20 @@ fieldset {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+
+.related-news .post-card-1.large .thumb-overlay {
+  min-height: 212px;
+}
+
+.related-news .post-card-1.large .post-card-content .post-title {
+  font-size: 18px;
+}
+
+.related-news .post-card-1.large .post-card-content p {
+  font-size: 14px;
+}
+
+.related-news .post-card-1.large .post-card-content .post-meta-2 .time-to-read {
+  font-size: 14px;
+}
 /*# sourceMappingURL=main.css.map */
