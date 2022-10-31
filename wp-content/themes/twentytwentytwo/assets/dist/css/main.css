@@ -456,7 +456,7 @@
 .search-wrapper input {
   width: 100%;
   padding: .8125rem 3rem .8125rem 1rem;
-  background-color: transparent;
+  background-color: #fff;
   border: 1px solid #ccc;
   -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.13);
           box-shadow: 0 0 18px rgba(0, 0, 0, 0.13);
@@ -1570,5 +1570,9 @@ fieldset {
 
 .related-news .post-card-1.large .post-card-content .post-meta-2 .time-to-read {
   font-size: 14px;
+}
+
+.offices-map-locator {
+  background-color: rgba(255, 204, 168, 0.25);
 }
 /*# sourceMappingURL=main.css.map */

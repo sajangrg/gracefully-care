@@ -44,8 +44,8 @@
   <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/dist/css/main.css">
 </head>
 <body>
-  <header class="main-header wc-primary-nav fixed-nav">
-    <nav class="navbar navbar-expand-lg bg-white">
+  <header class="main-header wc-primary-nav">
+    <nav class="navbar navbar-expand-xl bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo home_url('/'); ?>">
           <img src="<?php bloginfo('template_directory');?>/assets/images/primary-logo.jpg" class="img-fluid" />
