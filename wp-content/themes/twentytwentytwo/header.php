@@ -50,9 +50,6 @@
         <a class="navbar-brand" href="<?php echo home_url('/'); ?>">
           <img src="<?php bloginfo('template_directory');?>/assets/images/primary-logo.jpg" class="img-fluid" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="primaryNav">
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -86,17 +83,22 @@
             </li>
           </ul>
         </div>
-        <div class="right-aligned-wrapper d-flex">
-          <div class="large-buttons">
-            <ul>
-              <li>
-                <a href="<?php echo home_url('become-a-support-star/'); ?>" class="btn btn-secondary">Schedule a Support Consultation</a>
-              </li>
-              <li>
-                <a href="<?php echo home_url('become-a-support-star/'); ?>"  class="btn btn-primary text-white">Become a Support Star</a>
-              </li>
-            </ul>
+        <div class="navbar_toggler-buttons d-flex align-items-center gap-2">
+          <div class="right-aligned-wrapper">
+            <div class="large-buttons">
+              <ul>
+                <li>
+                  <a href="<?php echo home_url('become-a-support-star/'); ?>" class="btn btn-secondary">Schedule a Support Consultation</a>
+                </li>
+                <li>
+                  <a href="<?php echo home_url('become-a-support-star/'); ?>"  class="btn btn-primary text-white">Become a Support Star</a>
+                </li>
+              </ul>
+            </div>
           </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav" aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="<?php bloginfo('template_directory');?>/assets/images/icons/icon-menu.svg" alt="humburger icon">
+          </button>
         </div>
       </div>
     </nav>

@@ -20,11 +20,60 @@
   }
 }
 
+// .navbar{
+//   .container-fluid{
+//     justify-content: center;
+//   }
+// }
+
+.navbar_toggler-buttons{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  @media (max-width: 720px) {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .navbar-collapse.collapse.show ~ .navbar_toggler-buttons .right-aligned-wrapper{
+    display: block;
+  }
+}
+
+.navbar-toggler{
+  border: 0;
+  @media (max-width: 1199px) {
+    order: 1;
+  }
+  @media (max-width: 720px) {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  &:focus{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+  }
+  img {
+    width: 36px;
+  }
+}
+
+
 .nav-item{
   margin: 0 10px;
   padding: 0 15px;
+  @media (max-width: 1270px) {
+    padding: 0 5px;
+  }
   .nav-link{
     font-weight: 700;
+    @media (max-width: 1350px) {
+      font-size: 14px;
+    }
   }
   .dropdown-menu{
     padding: 0;
@@ -43,12 +92,23 @@
     align-content: center;
     list-style: none;
     margin: 0;
+    padding: 0;
+    @media (max-width: 720px) {
+      display: block;
+      width: 100%;
+    }
     li{
       margin: 0 5px;
+      @media (max-width: 720px) {
+        margin: 0 5px 5px;
+      }
       a{
         padding: 12px 18px;
         font-weight: 700;
         text-decoration: none;
+        @media (max-width: 1300px) {
+          padding: 12px 10px;
+        }
       }
     }
   }
@@ -60,6 +120,9 @@
   align-items: center;
   height: 630px;
   overflow: hidden;
+  @media (max-width: 1199px) {
+    height: 464px;
+  }
   @media(max-width: 768px){
     height: 355px;
   }
@@ -76,6 +139,10 @@
     content: '';
     opacity: .9;
     transform: skewX(-10deg);
+    @media (max-width: 767px) {
+      left: 0;
+      transform: skewX(0);
+    }
   }
   .banner-content{
     position: relative;
@@ -83,6 +150,12 @@
       font-size: 60px;
       font-weight: 600;
       color: #fff;
+      @media (max-width: 1199px) {
+        font-size: 42px;
+      }
+      @media (max-width: 991px) {
+        font-size: 34px;
+      }
     }
     .btn{
       font-size: 18px;
@@ -115,6 +188,9 @@
     margin: 0 0 45px;
     font-size: 45px;
     font-weight: 600;
+    @media (max-width: 575px) {
+      font-size: 28px;
+    }
     &:after{
       position: absolute;
       left: 0;
@@ -407,5 +483,22 @@
     padding: 13px;
     transform: translateY(-50%);
     color: #000;
+  }
+}
+
+@media (max-width: 1350px) {
+  .right-aligned-wrapper,
+  .large-buttons{
+    width: 100%;
+    a{
+      width: 100%;
+    }
+  }
+}
+
+.right-aligned-wrapper{
+  display: flex;
+  @media (max-width: 720px) {
+    display: none;
   }
 }

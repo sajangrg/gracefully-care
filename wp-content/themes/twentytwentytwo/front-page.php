@@ -119,7 +119,7 @@
 <section class="section home-support py-5">
   <div class="container">
     <div class="row align-items-center">
-      <div class="offset-lg-1 col-lg-6">
+      <div class="offset-xl-1 col-lg-6 mb-3 mb-lg-0">
         <img src="<?php bloginfo('template_directory');?>/assets/images/img-home-2.jpg" alt="Alliance Community Support Star Staff in Action" class="img-fluid">
       </div>
       <div class="col-lg-6 col-xl-5">
@@ -129,7 +129,7 @@
             <h1>Become a Support Star!</h1>
             <p>Do you have the right qualities? Become a Support Star with Alliance Community to make a difference in your community.</p>
           </div>
-          <a href="#" class="btn btn-primary text-white">Become a Support Star</a>
+          <a href="<?php echo home_url('become-a-support-star/'); ?>" class="btn btn-primary text-white">Become a Support Star</a>
         </div>
       </div>
     </div>
