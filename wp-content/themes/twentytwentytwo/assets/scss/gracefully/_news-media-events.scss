@@ -17,6 +17,12 @@
   }
   &.large .thumb-overlay {
     min-height: 320px;
+    @media (max-width: 1025px) {
+      min-height: 215px;
+    }
+    @media (max-width: 769px) {
+      min-height: 195px;
+    }
   }
   .thumb-overlay {
     min-height: 220px;
@@ -60,6 +66,12 @@
     padding: 30px;
     background: #f9f9f9;
     border-radius: 0 0 10px 10px;
+    @media (max-width: 1025px) {
+      padding: 20px;
+    }
+    @media (max-width: 769px) {
+      padding: 16px;
+    }
   }
   .post-card-content {
     display: flex;

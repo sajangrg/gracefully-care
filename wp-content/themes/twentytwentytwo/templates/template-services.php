@@ -101,7 +101,7 @@ get_header(); ?>
           <p>If you would like more information about booking a Support Star, or would like to register for work with us, please get in touch!</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="Thumbnail" class="img-fluid">
@@ -113,7 +113,7 @@ get_header(); ?>
           <a href="#" class="btn btn-primary text-white px-4 py-2">Find out more</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/join-our-team-alliance-community.jpg" alt="Thumbnail" class="img-fluid">
@@ -122,7 +122,7 @@ get_header(); ?>
             <h1>Join our team</h1>
             <p>Have you got what it takes? Become a Support Star with Alliance Community to make a difference in your community.</p>
           </div>
-          <a href="#" class="btn btn-secondary px-4 py-2">Become a Support Star</a>
+          <a href="<?php echo home_url('become-a-support-star/'); ?>" class="btn btn-secondary px-4 py-2">Become a Support Star</a>
         </div>
       </div>
     </div>

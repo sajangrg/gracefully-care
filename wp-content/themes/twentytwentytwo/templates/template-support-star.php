@@ -209,7 +209,7 @@ get_header(); ?>
         <div class="owl-carousel stories-carousel">
           <div class="item">
             <div class="row align-items-center story-block d-flex w-100">
-              <div class="col-lg-6">
+              <div class="col-lg-6 mb-lg-0 mb-3">
                 <div class="stories-content-wrapper">
                   <span>Stores #1</span>
                   <a href="#" class="story-heading">
@@ -231,7 +231,7 @@ get_header(); ?>
           </div>
           <div class="item">
             <div class="row align-items-center story-block d-flex w-100">
-              <div class="col-lg-6">
+              <div class="col-lg-6 mb-lg-0 mb-3">
                 <div class="stories-content-wrapper">
                   <span>Stores #2</span>
                   <a href="#" class="story-heading">

@@ -266,11 +266,19 @@
 {
     display: inline-block;
     text-align: right;
+    @media (max-width: 575px) {
+      display: block;
+      width: 100%;
+    }
 }
 
 .wizard > .actions > ul > li
 {
     margin: 0 0.5em;
+    @media (max-width: 480px) {
+      margin-bottom: 5px;
+      float: inherit;
+    }
 }
 
 .wizard.vertical > .actions > ul > li
@@ -292,6 +300,9 @@
   text-decoration: none;
   border-radius: 0;
   text-align: center;
+  @media (max-width: 575px) {
+    min-width: inherit;
+  }
 }
 
 .wizard > .actions .disabled a,

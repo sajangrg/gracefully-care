@@ -24,7 +24,7 @@ get_header(); ?>
   <div class="container">
     <div class="row">
       <div class="col-lg-12 py-5">
-        <div class="service-text-content text-center mb-5">
+        <div class="service-text-content text-center mb-xl-5 mb-2">
           <h1>What's New</h1>
           <div class="search-wrapper">
             <a href="#" class="btn-search">

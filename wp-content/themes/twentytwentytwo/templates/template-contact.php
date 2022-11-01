@@ -73,7 +73,7 @@ get_header(); ?>
               <label for="message">Message</label>
             </div>
           </div>
-          <div class="offset-4 col-lg-4 mb-4">
+          <div class="offset-lg-4 offset-0 col-lg-4 mb-4">
             <input type="submit" class="btn btn-secondary w-100 py-2 fs-6" value="Submit"/>
           </div>
         </div>

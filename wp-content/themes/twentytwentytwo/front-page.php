@@ -141,7 +141,7 @@
         <h1>Register for Events</h1>
       </div>
       <div class="row list-cards justify-content-center">
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-lg-0 mb-3">
           <div class="item">
             <a href="#">
               <div class="thumbnail">
@@ -171,7 +171,7 @@
             <a href="#" class="btn-more">Learn More</a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-lg-0 mb-3">
           <div class="item">
             <a href="#">
               <div class="thumbnail">
@@ -201,7 +201,7 @@
             <a href="#" class="btn-more">Learn More</a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 mb-lg-0 mb-3">
           <div class="item">
             <a href="#">
               <div class="thumbnail">
@@ -244,7 +244,7 @@
       <h1>What’s New</h1>
     </div>
     <div class="row list-cards justify-content-center">
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-lg-0 mb-3">
         <div class="item">
           <a href="#">
             <div class="thumbnail">
@@ -274,7 +274,7 @@
           <a href="#" class="btn-more">Learn More</a>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-lg-0 mb-3">
         <div class="item">
           <a href="#">
             <div class="thumbnail">
@@ -304,7 +304,7 @@
           <a href="#" class="btn-more">Learn More</a>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 mb-lg-0 mb-3">
         <div class="item">
           <a href="#">
             <div class="thumbnail">
@@ -352,7 +352,7 @@
           <p>If you would like more information about booking a Support Star, or would like to register for work with us, please get in touch!</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="Thumbnail" class="img-fluid">
@@ -364,7 +364,7 @@
           <a href="#" class="btn btn-primary text-white px-4 py-2">Find out more</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/join-our-team-alliance-community.jpg" alt="Thumbnail" class="img-fluid">

@@ -35,7 +35,7 @@ get_header(); ?>
 <section class="team-list">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg" class="img-fluid" alt="">
@@ -75,7 +75,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/img-home-2.jpg" class="img-fluid" alt="">
@@ -115,7 +115,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/digital.jpg" class="img-fluid" alt="">
@@ -155,7 +155,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/blog3.jpg" class="img-fluid" alt="">
@@ -195,7 +195,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg" class="img-fluid" alt="">
@@ -235,7 +235,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg" class="img-fluid" alt="">
@@ -275,7 +275,7 @@ get_header(); ?>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 py-5">
+      <div class="col-lg-3 col-md-4 col-sm-6 py-5">
         <div class="card team team-primary text-center border-0">
           <div class="card-img team-image d-inline-block mx-auto rounded-pill avatar avatar-ex-large overflow-hidden">
             <img src="<?php bloginfo('template_directory');?>/assets/images/gallery-img1.jpg" class="img-fluid" alt="">
@@ -328,7 +328,7 @@ get_header(); ?>
           <p>If you would like more information about booking a Support Star, or would like to register for work with us, please get in touch!</p>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/AC_NSW-Open-Day-20225.jpg" alt="Thumbnail" class="img-fluid">
@@ -340,7 +340,7 @@ get_header(); ?>
           <a href="#" class="btn btn-primary text-white px-4 py-2">Find out more</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mb-md-0 mb-3">
         <div class="get-started-block text-center">
           <div class="get-started-image">
             <img src="<?php bloginfo('template_directory');?>/assets/images/join-our-team-alliance-community.jpg" alt="Thumbnail" class="img-fluid">
