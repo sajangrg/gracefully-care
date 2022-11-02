@@ -511,3 +511,13 @@
     display: none;
   }
 }
+
+.dropdown-toggle{
+  &::after{
+    background: url('../../images/icons/icon-dropdown.svg') center/contain no-repeat;
+    width: 13px;
+    height: 15px;
+    vertical-align: -2px;
+    border: 0;
+  }
+}
